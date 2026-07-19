@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowUp, Github, Linkedin, Mail, Code2, Award, Code } from "./Icons";
+import { ArrowUp, Github, Linkedin, Mail, Code2, Award, Code, GeeksForGeeks, HackerRank } from "./Icons";
 import { Button } from "../ui/button";
 import { useScrollReveal } from "./useScrollReveal";
 
@@ -25,12 +25,12 @@ export function Footer() {
       link: "https://leetcode.com/u/tarushi22/",
     },
     {
-      icon: Award,
+      icon: HackerRank,
       label: "HackerRank",
       link: "https://www.hackerrank.com/profile/tarushi22",
     },
     {
-      icon: Code,
+      icon: GeeksForGeeks,
       label: "GeeksForGeeks",
       link: "https://www.geeksforgeeks.org/profile/tarushivishwakarma",
     },

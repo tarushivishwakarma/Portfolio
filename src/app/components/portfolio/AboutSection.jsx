@@ -7,7 +7,7 @@ export function AboutSection() {
   const stats = [
     { 
       label: "Projects Built", 
-      value: "8+", 
+      value: "6+", 
       icon: Code,
       bgImage: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop"
     },
@@ -121,10 +121,10 @@ export function AboutSection() {
                 </h3>
                 <div className="space-y-3.5 text-sm text-zinc-700 dark:text-zinc-300 font-light">
                   <p><span className="text-zinc-500 dark:text-zinc-500 font-semibold mr-2">Languages:</span> Java, Python, C, JavaScript, SQL</p>
-                  <p><span className="text-zinc-500 dark:text-zinc-500 font-semibold mr-2">Web Tech:</span> HTML, CSS, React, FastAPI, Node.js</p>
-                  <p><span className="text-zinc-500 dark:text-zinc-500 font-semibold mr-2">Databases:</span> MySQL, Firebase, ChromaDB</p>
-                  <p><span className="text-zinc-500 dark:text-zinc-500 font-semibold mr-2">Tools/Platforms:</span> GitHub, VS Code, Vercel, Figma</p>
-                  <p><span className="text-zinc-500 dark:text-zinc-500 font-semibold mr-2">AI/ML:</span> RAG Pipeline, LLM Integration, Vector Databases</p>
+                  <p><span className="text-zinc-500 dark:text-zinc-500 font-semibold mr-2">Web Tech:</span> HTML, CSS, React, FastAPI, Node.js, MERN Stack</p>
+                  <p><span className="text-zinc-500 dark:text-zinc-500 font-semibold mr-2">Databases:</span> MySQL, Firebase, MongoDB</p>
+                  <p><span className="text-zinc-500 dark:text-zinc-500 font-semibold mr-2">Tools/Platforms:</span> Git, GitHub, VS Code, Vercel, Figma, MySQL Workbench, Canva, Microsoft 365</p>
+                  <p><span className="text-zinc-500 dark:text-zinc-500 font-semibold mr-2">AI/ML:</span> LLM Integration, Vector Databases</p>
                 </div>
               </div>
             </div>
@@ -143,7 +143,7 @@ export function AboutSection() {
                   Soft Skills
                 </h3>
                 <div className="flex flex-wrap gap-2">
-                  {["Leadership", "Teamwork", "Communication", "Problem-Solving",
+                  {["Quick Learner", "Leadership", "Teamwork", "Collaboration", "Coordination", "Attention to Detail", "Communication", "Problem-Solving",
                     "Public Speaking", "Event Management", "Creativity", "Adaptability"].map((skill) => (
                     <span
                       key={skill}

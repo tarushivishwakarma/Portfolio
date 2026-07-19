@@ -31,14 +31,6 @@ export function ContactSection() {
       bgImage: "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=600&auto=format&fit=crop"
     },
     {
-      icon: Phone,
-      label: "Phone",
-      value: "",
-      link: "tel:",
-      color: "blue",
-      bgImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop"
-    },
-    {
       icon: MapPin,
       label: "Location",
       value: "Lucknow, Uttar Pradesh",

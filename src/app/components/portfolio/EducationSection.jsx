@@ -103,7 +103,7 @@ export function EducationSection() {
       field: "Computer Science and Engineering",
       institution: "RR Institute Of Modern Technology, Lucknow",
       board: "AKTU",
-      percentage: "86.29%",
+      percentage: "86.32%",
       duration: "2023 - Present",
       status: "In Progress",
       color: "purple",

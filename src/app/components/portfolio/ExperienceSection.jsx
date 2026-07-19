@@ -13,7 +13,7 @@ function ExperienceCard({ exp }) {
       className={`reveal-fade ${isVisible ? 'revealed' : ''}`}
     >
       <Card className="h-full bg-white/80 dark:bg-zinc-900/20 backdrop-blur-md border border-zinc-200/50 dark:border-white/5 p-6 hover:scale-[1.02] hover:border-zinc-350 dark:hover:border-white/10 transition-all group shadow-sm relative overflow-hidden">
-        
+
         {/* Subtle Background Image watermark */}
         <img
           src={exp.bgImage}
@@ -52,7 +52,7 @@ function AchievementCard({ achievement }) {
       className={`reveal-fade ${isVisible ? 'revealed' : ''}`}
     >
       <Card className="h-full bg-white/80 dark:bg-zinc-900/20 backdrop-blur-md border border-zinc-200/50 dark:border-white/5 p-6 text-center hover:scale-[1.02] hover:border-zinc-350 dark:hover:border-white/10 transition-all group shadow-sm relative overflow-hidden">
-        
+
         {/* Subtle Background Image watermark */}
         <img
           src={achievement.bgImage}
@@ -93,7 +93,7 @@ export function ExperienceSection() {
       role: "Core Team Member",
       organization: "Pragyan ",
       type: "College Annual Fest",
-      description: "Coordinated event planning and logistics for large-scale cultural and technical activities. Collaborated with multiple teams for smooth execution while developing leadership and teamwork skills.",
+      description: "Coordinated event planning and logistics for large-scale college cultural and technical activities. Collaborated with multiple teams to ensure smooth execution of events while developing leadership, communication, teamwork, and event management skills.",
       color: "blue",
       bgImage: "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=600&auto=format&fit=crop"
     },
@@ -102,7 +102,7 @@ export function ExperienceSection() {
       role: "Core Member",
       organization: "Tarang ",
       type: "Cultural Club",
-      description: "Organized cultural activities and college events, coordinated logistics, and contributed to successful program execution. Strengthened communication and event management skills.",
+      description: "Assisted in organizing cultural activities and college events, coordinated event logistics, collaborated with teams, and contributed to the successful execution of programs while strengthening communication, teamwork, and event management skills.",
       color: "purple",
       bgImage: "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=600&auto=format&fit=crop"
     },
@@ -111,7 +111,7 @@ export function ExperienceSection() {
       role: "Organizing Team Member",
       organization: "Udaan ",
       type: "College Freshers' Event",
-      description: "Assisted in planning and coordinating event activities, managed logistics and team collaboration for the college freshers' event.",
+      description: "Assisted in planning and coordinating event activities, managed logistics and team collaboration, and contributed to the smooth execution of the college freshers’ event while developing communication, coordination, and teamwork skills.",
       color: "blue",
       bgImage: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=600&auto=format&fit=crop"
     },
@@ -121,28 +121,28 @@ export function ExperienceSection() {
     {
       icon: Trophy,
       title: "Debate Winner",
-      description: "Won debate competitions demonstrating strong public speaking, critical thinking, and analytical skills",
+      description: "Won debate competitions by demonstrating strong public speaking, critical thinking, communication, confidence, and analytical skills while presenting impactful arguments effectively.",
       color: "purple",
       bgImage: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=600&auto=format&fit=crop"
     },
     {
       icon: Mic,
       title: "Extempore Speaker",
-      description: "Demonstrated spontaneous speaking, confidence, and effective communication in competitions",
+      description: "Demonstrated spontaneous speaking, confidence, critical thinking, and effective communication skills through participation in extempore speaking events and competitions.",
       color: "blue",
       bgImage: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=600&auto=format&fit=crop"
     },
     {
       icon: Star,
-      title: "Content Writing Recognition",
-      description: "Secured recognition showcasing creativity, critical thinking, and strong written expression",
+      title: "Content Writing",
+      description: "Secured recognition in a content writing competition by demonstrating creativity, effective communication, critical thinking, and strong written expression skills.",
       color: "purple",
       bgImage: "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop"
     },
     {
       icon: Mic,
       title: "Event Anchoring",
-      description: "Hosted college events demonstrating strong communication, public speaking, and audience engagement",
+      description: "Hosted and coordinated college events and stage activities, demonstrating strong communication, public speaking, confidence, audience engagement, and event management skills.",
       color: "blue",
       bgImage: "https://images.unsplash.com/photo-1484712401471-05c7215a69eb?q=80&w=600&auto=format&fit=crop"
     },
